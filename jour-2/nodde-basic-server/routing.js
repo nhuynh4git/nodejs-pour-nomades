@@ -10,6 +10,23 @@ var router = {
   routeRequest: function(req, res) {
     //TODO analyse the request and based on its URL forward the request
     // and the response to the proper route
+    var segments = req.url.pahtname.split('/');
+    switch (segments[1]){
+    	case 'authenticate':
+    		authentication.handleRequest(req, res);
+    		break;
+    	case 'pools':
+    		pools.handleRequest(req, res);
+    		break;
+    	case 'users':
+    		users.handleRequest(req, res);
+    		break;		
+    	default:
+    		res.writeHead('404');
+    		res.write('error. Unknown route');
+    		res.end();
+    }
+
   }
 };
 

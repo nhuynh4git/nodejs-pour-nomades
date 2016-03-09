@@ -5,7 +5,7 @@
 var http = require('http');
 var qs = require('querystring');
 var url = require('url');
-var routing = require('./routing.js').routing;
+var routing = require('./routing.js');
 
 var corsHeaders = {
   "Access-Control-Allow-Origin": "http://localhost:4200",
@@ -19,7 +19,11 @@ var corsHeaders = {
 
 http.createServer(function(request, response) {
   //TODO assurer vous de toujours renvoyer les CORS header dans votre response
-
+  for (var header in corsHeaders){
+    if (corsHeaders.hasOwnProperty(header)){
+      response=setHeader(header, corsHeaders[header]);
+    }  
+  }
   //notre API fonctionne en JSON: on peut fixer le header une fois pour toute
   response.setHeader('Content-Type', 'application/json');
 
@@ -28,4 +32,35 @@ http.createServer(function(request, response) {
   //    routing.routeRequest(request, response);
   // ! un cas particuler: si la requête est de type OPTIONS:
   // pas la peine d'aller plus loin, il suffit d'envoyer les headers CORS
+  var bodyString = '';
+  request.on('data', function(data) {
+  bodyString += data;
+  if (bodyString.length > 1e6) {
+    // FLOOD ATTACK OR FAULTY CLIENT, NUKE REQUEST
+      request.connection.destroy();
+    }
+  });
+  
+  request.on('end', function() {
+    // bodyString contient l’intégralité du corp de la requete, on peut donc en faire quelque chose
+    var decodeBody;
+    switch(request.headers[content-type]) {
+      case 'application/x-www-form-urlencoded':
+        decodeBody = qs.parse(bodyString);
+        break;
+      case 'applicaiton/json':
+        decodeBody = JSON.parse(bodyString);
+        break;
+    default:
+        decodeBody = bodyString;
+    } 
+
+    var reqUrl = url.parse(request.url, true);
+    request.url = reqUrl;
+    request.query = reqUrl.query;
+    request.body = decodeBody;
+    routing.routeRequest(request, response);
+  });
+
+
 }).listen(8888);

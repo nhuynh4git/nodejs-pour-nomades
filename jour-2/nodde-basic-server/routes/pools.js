@@ -16,6 +16,9 @@ var pools = {
       res.end();
     },
 
+    /**
+     @param {Callback.<err, pools, users>} cb
+     */
     getAllPools: function(cb) {
       //TODO récuperer tous les pools de mockupData et récupérer aussi les utilisateurs qui vont avec
       cb(false, [], []);
