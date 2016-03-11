@@ -8,8 +8,40 @@ var mockupData = require('../mock-up-data');
 var userSerializer = require ('../serializers/user-serializer');
 
 
+
 router.post('/', function(req, res, next) {
-  res.status(500).json({error: 'not implemented yet'});
+  //res.status(500).json({error: 'not implemented yet'});
+  /* req.body.data = {
+        type: "users",
+        attributes: {
+          name: "asdqwe",
+          email: "asdqwe@asdwew.com"
+        }
+      }
+  */
+  var db = req.db;
+  db.collection('users').find({
+    $or:[
+      {'name': req.body.data.attributes.name}, 
+      {'email':req.body.data.attributes.email}
+      ]
+    }).toArray(function(err, data){
+      if (data.length > 0){
+        res.status(200).json({error:'User already ecxist'})
+      } else {
+        db.collection('users').insertOne({
+          'name':req.body.data.attributes.name, 
+          'email':req.body.data.attributes.email,
+           'password':req.body.data.attributes.password
+        }, function(err, results){
+          if (err){
+            throw err;
+          }
+          console.log(results);
+          res.status(200).json(userSerializer.serialize(results.ops[0]));
+        });
+      };
+    });
 });
 
 router.use(authentication.authenticatedRoute);

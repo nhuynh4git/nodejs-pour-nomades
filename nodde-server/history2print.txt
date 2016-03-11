@@ -1,0 +1,605 @@
+    1  google-chrome-stable
+    2  subl
+    3  cd Documents/
+    4  ls
+    5  cd mobileapp
+    6  ls
+    7  more package.json
+    8  nvm install
+    9  ls 
+   10  clear
+   11  curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
+   12  nvm -v
+   13  exit
+   14  nvm -v
+   15  sudo apt-get uninstall nvm
+   16  ls
+   17  rd .nvm
+   18  clear
+   19  hist
+   20  history
+   21  clear history
+   22  history
+   23  rm ~/.nvm
+   24  cd Do
+   25  cd Documents/
+   26  ls
+   27  cd mobileapp
+   28  ls 
+   29  cd tp1
+   30  ls
+   31  cd awesomeapp
+   32  ls
+   33  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+   34  exit
+   35  cd /
+   36  ls
+   37  ls -l /.
+   38  cd home
+   39  ls
+   40  cd hu001-a
+   41  ls
+   42  cd /
+   43  ls
+   44  cd ~
+   45  ls 
+   46  exit
+   47  cd modileapp
+   48  ls
+   49  cd mobileapp
+   50  ls 
+   51  more package.json
+   52  npm install angular-messages
+   53  exit
+   54  ls
+   55  cd /
+   56  cd hoem
+   57  cd home
+   58  exit
+   59  nvm -v
+   60  nvm install v4
+   61  nvm -v
+   62  nvm
+   63  nvm list
+   64  nvm use v4
+   65  vm list
+   66  nvm list
+   67  npm install
+   68  ls 
+   69  cd Documents/
+   70  ls
+   71  apt-get install npm
+   72  npm
+   73  nvm list
+   74  history
+   75  cd modileapp
+   76  ls
+   77  nvm install node
+   78  nvm list
+   79  nvm use v4
+   80  nvm lsit
+   81  nvm list
+   82  cd moileapp
+   83  ls
+   84  cd mobileapp
+   85  ls 
+   86  cd tp1
+   87  ls
+   88  cd awesoemapp
+   89  ls 
+   90  cd..
+   91  cd ..
+   92  ls
+   93  cd tp1_before_organized_folder/
+   94  ls
+   95  cd awesomeapp
+   96  ls
+   97  live server
+   98  live-server
+   99  npm install -g live-server
+  100  live-server
+  101  cd /
+  102  ls
+  103  cd home
+  104  ls
+  105  cd hu001-a
+  106  ls 
+  107  cd Documents/§
+  108  cd Documents/
+  109  ls
+  110  cd mobileapp
+  111  ls
+  112  cd tp9
+  113  ls 
+  114  npm install angular-messages
+  115  ls 
+  116  npm install angular-messages --save-
+  117  ls
+  118  npm install angular-messages --save
+  119  live-server
+  120  cd 
+  121  cd Documents/
+  122  ls
+  123  cd mobileapp/
+  124  ls
+  125  cd tp9
+  126  ls
+  127  live-server
+  128  nvm 
+  129  nvm ls
+  130  node -v
+  131  nvm alias default v4
+  132  nvm lsit
+  133  nvm list
+  134  nvm use v4
+  135  nvm list
+  136  live-server
+  137  cd home
+  138  cd Documents/
+  139  ls
+  140  cd mobileapp
+  141  ls 
+  142  cd tp1
+  143  ls
+  144  cd awesomeapp
+  145  live-server
+  146  cd..
+  147  cd ..
+  148  ls
+  149  cd tp9
+  150  ls
+  151  cd src
+  152  live-server
+  153  cd Documents/
+  154  ls
+  155  cd mobileapp
+  156  ls
+  157  cd tp9
+  158  ls
+  159  live-server
+  160  cd ..
+  161  cd tp1
+  162  live-server
+  163  ls
+  164  cd awesomeapp
+  165  ls 
+  166  live-server
+  167  cd..
+  168  cd home
+  169  cd /home
+  170  ls
+  171  node -v
+  172  sudo npm install -g cordova
+  173  npm -v
+  174  sudo npm install -g cordova
+  175  npm -v
+  176  npm install -g cordova
+  177  npm insatll -g ionic
+  178  ionic start hello
+  179  npm install -g ionic
+  180  ionic start hello
+  181  ls
+  182  cd home
+  183  ls
+  184  cd h001-a
+  185  ls
+  186  ls 
+  187  cd /
+  188  cd home
+  189  ls
+  190  cd h001-a
+  191  ls 
+  192  nautilus
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd ionic-places
+  197  ls
+  198  git checkout valid-2
+  199  git stash
+  200  git status
+  201  git reset
+  202  git reset --hard HEAD
+  203  git branch
+  204  git checkout valid-2
+  205  git branch
+  206  git checkout valid-3 -start 
+  207  git checkout valid-3 -start
+  208  git checkout valid-3-start
+  209  ls
+  210  ionic upload
+  211  cd Documents/
+  212  ls
+  213  cd mobileapp/
+  214  ls
+  215  ls -l
+  216  cd tp1
+  217  ls
+  218  cd awesomeapp
+  219  ls 
+  220  live-server
+  221  ionic branch
+  222  cd..
+  223  cd home
+  224  cd /home
+  225  ls
+  226  cd ..
+  227  cd..
+  228  cd ..
+  229  ls
+  230  ionic start hello
+  231  cd hello
+  232  ls
+  233  ionic serve --livereload
+  234  ionic serve --lab --livereload
+  235  git clone https://github.com/kimak/ionic-places.git
+  236  ls
+  237  apt-get install git
+  238  sudo apt-get install git
+  239  git clone https://github.com/kimak/ionic-places.git
+  240  ls -l
+  241  cd ..
+  242  ls
+  243  cd ionic-places
+  244  git remote -v
+  245  git remote add ionic-nghia https://github.com/nhuynh4git/ionic-places
+  246  git remote -v
+  247  ls 
+  248  ls
+  249  ionic serve --la --livereload
+  250  ls -l
+  251  ionic serve --livereload
+  252  ionic serve --lab --livereload
+  253  ionic serve  --livereload
+  254  cd ..
+  255  ls -l
+  256  cd ionic-places
+  257  ls -l
+  258  ionic branch
+  259  git branch
+  260  git checkout valid-5
+  261  git reset --hard HEAD
+  262  git branch
+  263  git reset --hard HEAD
+  264  git reset -hard HEAD
+  265  git branch
+  266  git reset --hard HEAD
+  267  git branch
+  268  git checkout valid-5
+  269  git branch
+  270  git branch -a
+  271  git brach
+  272  git branch
+  273  git checkout valid-7-start
+  274  git reset --hard HEAD
+  275  git branch
+  276  git checkout valid-7-start
+  277  git remote -v
+  278  git branch
+  279  git checkout valid-7-start
+  280  rm -rf modal
+  281  ls
+  282  git checkout valid-7-start
+  283  ls
+  284  cd tabs
+  285  ls -l
+  286  cd www
+  287  ls
+  288  cd src
+  289  ls -l
+  290  cd nav
+  291  ls
+  292  ls l
+  293  cd tabs
+  294  ls
+  295  rm tabs.controller.js 
+  296  cd ..
+  297  ls
+  298  rm -rf modal
+  299  cd ..
+  300  cd..
+  301  cd ..
+  302  ls
+  303  git checkout valid-7-start
+  304  git branch
+  305  ionic start hellomap maps
+  306  ls
+  307  rm -rf hellmap
+  308  cd ..
+  309  ionic start hellomap maps
+  310  ls
+  311  cd hellomap
+  312  history
+  313  ionic server --livereload
+  314  ionic serve --livereload
+  315  exit
+  316  quit
+  317  exit
+  318  git -v
+  319  git version
+  320  git branch
+  321  cd..
+  322  ls
+  323  ls -l
+  324  cd ..
+  325  s
+  326  ls -l
+  327  mkdir easyservice
+  328  ls -l
+  329  cd easyservice
+  330  ionic start
+  331  ionic start easyservice
+  332  ls -l
+  333  cd ..
+  334  cd /Docu
+  335  cd ..
+  336  cd /home
+  337  ls -l
+  338  cd ..
+  339  cd -/Documents
+  340  cd ..
+  341  cd/
+  342  cd /
+  343  ls
+  344  cd usr
+  345  ls
+  346  ls -l
+  347  cd Documents/
+  348  ls
+  349  cd ionic-places
+  350  ls
+  351  ls -l
+  352  cd ..
+  353  ls
+  354  ls -l
+  355  cd ionic-places
+  356  ls -l
+  357  git -v
+  358  git branch
+  359  git remote -v
+  360  git checkout valid-15
+  361  git branch
+  362  ls
+  363  cd www
+  364  ls
+  365  cd src
+  366  ls
+  367  cd app.js
+  368  more app.js
+  369  ionic start valid-5
+  370  cd ..
+  371  ls-l
+  372  ls -l
+  373  ls
+  374  cd styles
+  375  ls
+  376  cd ..
+  377  ls
+  378  cd css
+  379  ls
+  380  exit
+  381  cd ..
+  382  ls
+  383  ionic start easyservices
+  384  ls
+  385  ionic start easyservices tabs
+  386  ls
+  387  cd easyservices
+  388  ls
+  389  ionic serve --livereload
+  390  bower install ngcordova --save
+  391  bower install
+  392  npm install -g bower
+  393  bower install ngcordova --save
+  394  bower install ng-cordova --save
+  395  bower install ngCordova --save
+  396  ionic serve --livereload
+  397  cd ..
+  398  cd..
+  399  cd ..
+  400  ls 
+  401  ionic serve --livereload
+  402  npm install -g gulp
+  403  ionic serve --livereload
+  404  exit
+  405  quit
+  406  exit
+  407  git remote
+  408  git remote -v
+  409  ls -l
+  410  cd Documents/
+  411  ls
+  412  cd odejs
+  413  ls -l
+  414  cd nodejs-training/
+  415  git clone https://github.com/nhuynh4git/nodejs-pour-nomades.git
+  416  git remote -v
+  417  cls -l
+  418  ls -l
+  419  cd nodejs-pour-nomades/
+  420  git remote -v
+  421  git branch jour1
+  422  git checkout jour1
+  423  ls -l
+  424  cd jour1
+  425  ls -l
+  426  cd jour-1
+  427  ls -l
+  428  ls 
+  429  mkdir hello-world
+  430  ls
+  431  cd hello-world
+  432  ls
+  433  npm init
+  434  ls
+  435  more package.json 
+  436  ls -l
+  437  npm install -g nodemon
+  438  npm install -g inspector
+  439  node -v
+  440  npm install -g node-inspector
+  441  ls -l
+  442  nodemon --debug helloworld.js
+  443  nodemon --debug hellofibo.js
+  444  cd ..
+  445  cd hello-fibo
+  446  nodemon --debug hellofibo.js
+  447  npm install async-fibo --save 
+  448  ls
+  449  more package.json
+  450  nodemon --debug hellofibo.js
+  451  nodemon  hellofibo.js
+  452  nodemon  name.js
+  453  nodemon  hello-name.js 
+  454  cd ..
+  455  cd jour-2
+  456  ls
+  457  cd ..
+  458  cd jour-2
+  459  ls
+  460  cd nodde-basic-server/
+  461  ls
+  462  npm install -g mocha
+  463  npm install -g mocha tests
+  464  npm install -g mocha
+  465  mocha tests
+  466  ls
+  467  mocha tests
+  468  cat package.json 
+  469  npm install
+  470  mocha tests
+  471  npm install jsonwebtoken
+  472  cd ..
+  473  npm install -g express-generator
+  474  ls 
+  475  express my-first-express-app
+  476  ls 
+  477  rm my-first-express-app/
+  478  ls
+  479  cd my-first-express-app/
+  480  ls
+  481  cd --
+  482  cd ..
+  483  ls
+  484  cd ..
+  485  ls
+  486  rm -r my-first-express-app/
+  487  ls
+  488  express my-app
+  489  ls
+  490  cd my-a
+  491  cd my-app/
+  492  ls
+  493  more app.js
+  494  ls
+  495  npm install
+  496  nodemon --debug bin/www
+  497  ls
+  498  cd..
+  499  cd ..
+  500  ls
+  501  cd noddde-server
+  502  nodemon --debug bin/www
+  503  cd nodde-server/
+  504  nodemon --debug bin/www
+  505  cd ..
+  506  git status
+  507  git add 
+  508  git add .
+  509  git commit -m "dhrhzrhehte"
+  510  git push 
+  511  git push --set-upstream origin jour2
+  512  git checkout master
+  513  git remote -v
+  514  git pull leo master
+  515  git status
+  516  git branch
+  517  git checkout -b jour3
+  518  git status
+  519  git branch
+  520  history
+  521  git remote -v
+  522  history
+  523  git status
+  524  git log
+  525  git branch 
+  526  git checkout jour2
+  527  git checkout jour3
+  528  ls 
+  529  git checkout jour2
+  530  git checkout jour3 jour-3
+  531  ls
+  532  git status
+  533  git checkout jour3
+  534  git status
+  535  git ranch
+  536  git branch
+  537  git pull leo master
+  538  ls 
+  539  cd nodde-server
+  540  ls
+  541  nodemon 
+  542  nodemon --debug bin/www
+  543  cd ..
+  544  npm install mongodb --save
+  545  cd ..
+  546  cd nodejs-pour-nomades/
+  547  ls
+  548  git pull leo master
+  549  cd jour-4
+  550  ls -l
+  551  git pull leo master
+  552  ls
+  553  git commit -am "commint jour3"
+  554  git status
+  555  git pull leo master
+  556  ls
+  557  git branch
+  558  git checkout -b jour4
+  559  git pull leo master
+  560  git checkout jour3
+  561  git add .
+  562  git commit -am "commint jour3"
+  563  git checkout jour4
+  564  git pull leo master
+  565  git status
+  566  nano nodde-server/app.js 
+  567  nano nodde-server/routes/users.js 
+  568  git add nodde-server/
+  569  git commit
+  570* 
+  571  cd jour-4
+  572  ls
+  573  nom install mongodb
+  574  npm install mongodb
+  575  mongoimport --db test --collection restaurants --drop --file dataset.json
+  576  node index
+  577  npm install
+  578  node index.js
+  579  cd..
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd nodde-server
+  584  ls
+  585  node app.js
+  586  ls 
+  587  node tests/mockup-tests/
+  588  npm nstall
+  589  npm install
+  590  node tests/mockup-tests/
+  591  history
+  592  nodemon bin/www 
+  593  history
+  594  history ->cmd_history
+  595  history
+  596  ls 
+  597  more cmd_history
+  598  ls -l
+  599  rm cmd_history
+  600  ls
+  601  history -> historyfile.txt
+  602  man history
+  603  man file
+  604  history
+  605  history > history2print.txt
